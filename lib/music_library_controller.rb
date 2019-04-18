@@ -33,6 +33,7 @@ class MusicLibraryController
     input = nil
     # binding.pry
     while input != 'exit'
+      input = gets.chomp
       case input
         when "list songs"
           list_songs
