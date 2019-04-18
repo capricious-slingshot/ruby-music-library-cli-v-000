@@ -31,7 +31,6 @@ class MusicLibraryController
   def user_input
     menu
     input = nil
-    # binding.pry
     while input != 'exit'
       input = gets.chomp
       case input
