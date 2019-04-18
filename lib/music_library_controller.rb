@@ -42,10 +42,10 @@ class MusicLibraryController
           list_songs_by_genre
         when "play song"
           play_song
-        # else
-        #   puts "Invalid entry. Please select from the following menu:"
-        #   menu
-        #   input = gets.chomp
+        else
+          puts "Invalid entry. Please select from the following menu:"
+          menu
+          input = gets.chomp
         end
     end
   end
