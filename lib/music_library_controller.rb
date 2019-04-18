@@ -27,7 +27,7 @@ class MusicLibraryController
   end
 
   def input
-    gets.strip.chomp.downcase
+    gets.strip
   end
 
   def user_input
