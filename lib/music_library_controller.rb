@@ -33,7 +33,6 @@ class MusicLibraryController
     input = gets.strip
     binding.pry
     while input != 'exit'
-      # input
       case input
         when "list songs"
           list_songs
