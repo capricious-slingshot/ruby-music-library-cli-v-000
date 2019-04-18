@@ -8,7 +8,7 @@ class MusicLibraryController
     welcome
     menu
     user_input
-    
+
   end
 
   def welcome
