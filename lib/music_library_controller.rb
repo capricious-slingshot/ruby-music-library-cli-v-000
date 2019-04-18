@@ -7,9 +7,7 @@ class MusicLibraryController
   def call
     welcome
     menu
-    input = gets.strip
-    user_input(input)
-
+    user_input
   end
 
   def welcome
@@ -32,6 +30,7 @@ class MusicLibraryController
   # end
 
   def user_input
+    
     binding.pry
     while input != 'exit'
       # input
