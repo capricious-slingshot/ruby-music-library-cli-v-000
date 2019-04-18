@@ -7,7 +7,8 @@ class MusicLibraryController
   def call
     welcome
     menu
-    user_input
+    input = gets.strip
+    user_input(input)
 
   end
 
@@ -26,9 +27,9 @@ class MusicLibraryController
     puts "To quit, type 'exit'."
   end
 
-  def input
-    gets.strip
-  end
+  # def input
+  #   gets.strip
+  # end
 
   def user_input
     binding.pry
