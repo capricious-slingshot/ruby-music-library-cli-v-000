@@ -31,6 +31,7 @@ class MusicLibraryController
   end
 
   def user_input
+    binding.pry
     while input != 'exit'
       # input
       case input
