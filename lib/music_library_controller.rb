@@ -30,7 +30,7 @@ class MusicLibraryController
 
   def user_input
     menu
-    input = gets.strip
+    input = nil
     # binding.pry
     while input != 'exit'
       case input
