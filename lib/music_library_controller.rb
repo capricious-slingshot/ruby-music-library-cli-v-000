@@ -24,10 +24,6 @@ class MusicLibraryController
     puts "To quit, type 'exit'."
   end
 
-  # def input
-  #   gets.strip
-  # end
-
   def user_input
     menu
     input = nil
