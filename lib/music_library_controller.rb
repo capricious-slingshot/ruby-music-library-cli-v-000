@@ -8,6 +8,7 @@ class MusicLibraryController
     welcome
     menu
     user_input
+    
   end
 
   def welcome
@@ -31,7 +32,7 @@ class MusicLibraryController
 
   def user_input
     while input != 'exit'
-      input
+      # input
       case input
         when "list songs"
           songs
