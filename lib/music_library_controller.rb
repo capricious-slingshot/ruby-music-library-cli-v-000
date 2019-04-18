@@ -49,6 +49,7 @@ class MusicLibraryController
         else
           puts "Invalid entry. Please select from the following menu:"
           menu
+          input = gets.chomp
         end
     end
   end
